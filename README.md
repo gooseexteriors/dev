@@ -1,26 +1,10 @@
-# Coming Soon Landing Page
+# Goose Exteriors Website
 
-This is a simple static landing page with a centered image and "Coming Soon" message.  
-Designed to be lightweight, fast, and easy to deploy on GitHub Pages or any static host.
+This is the production-ready static website for **Goose Exteriors**, a pressure washing company located in Media, PA and serving Delaware County.
 
-## Preview
+## 🌐 Live Preview
 
-![Coming Soon](logo.jpeg)
+[Visit Site](https://yourusername.github.io/goose-exteriors/)  
+(*Replace with your real GitHub Pages or Netlify URL*)
 
-## Usage
-
-1. Clone the repository or upload it to your own GitHub repo.
-2. Replace `your-image.jpg` with your own image file.
-3. Optionally customize the text or styles in `index.html`.
-4. Deploy using [GitHub Pages](https://pages.github.com), [Netlify](https://www.netlify.com/), or any static hosting provider.
-
-## Custom Domain (Optional)
-
-To use a custom domain with GitHub Pages:
-- Create a `CNAME` file with your domain name inside.
-- Point your DNS to GitHub’s servers.
-- GitHub will automatically issue an HTTPS certificate.
-
-## License
-
-Feel free to use and modify. No license restrictions unless added later.
+## 📁 Project Structure
