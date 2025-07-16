@@ -1,7 +1,7 @@
 :root {
   --bg: #223b52;
   --text-light: #fdf8f3;
-  --accent: #fff;
+  --accent: #ffffff;
 }
 
 * {
@@ -17,8 +17,14 @@ body {
   line-height: 1.6;
 }
 
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
 header {
-  padding: 2rem 1rem;
+  background-color: #1b2f41;
+  padding: 1.5rem 1rem;
   text-align: center;
 }
 
@@ -27,29 +33,27 @@ header img {
   margin-bottom: 1rem;
 }
 
-header h1 {
-  font-size: 2.5rem;
+nav {
+  margin-top: 1rem;
 }
 
-.hero {
-  text-align: center;
-  padding: 1rem;
+nav a {
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
+nav a:hover {
+  color: #ccc;
 }
 
-.services {
+main {
   padding: 2rem 1rem;
-  background-color: #1b2f41;
   text-align: center;
 }
 
-.services h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+section {
+  margin-bottom: 2rem;
 }
 
 .service-grid {
@@ -57,7 +61,7 @@ header h1 {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .service-item {
@@ -66,31 +70,14 @@ header h1 {
   border-radius: 8px;
 }
 
-.contact {
-  padding: 2rem 1rem;
-  text-align: center;
-}
-
-.contact h2 {
-  margin-bottom: 1rem;
-}
-
-.contact p {
-  margin-bottom: 0.5rem;
-}
-
 form {
-  margin-top: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
   display: flex;
   flex-direction: column;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-input,
-textarea,
-button {
+input, textarea, button {
   padding: 0.75rem;
   margin-bottom: 1rem;
   border: none;
@@ -98,8 +85,7 @@ button {
   font-size: 1rem;
 }
 
-input,
-textarea {
+input, textarea {
   background: #fdf8f3;
   color: #223b52;
 }
@@ -117,20 +103,9 @@ button:hover {
 }
 
 footer {
+  background-color: #1a2a39;
+  padding: 1rem;
   text-align: center;
   font-size: 0.9rem;
-  padding: 1rem;
-  background-color: #1a2a39;
   color: #bbb;
-}
-
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  .services h2,
-  .contact h2 {
-    font-size: 1.5rem;
-  }
 }
